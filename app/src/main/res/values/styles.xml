@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/oscuro</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/claro</item>
+    </style>
+
+    <color name="Negro_transparente80">#CC000000</color>
+
+    <style name="AppTheme.PopUp">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+    </style>
+    <style name="AppTheme.PopUp_NoSalir">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+
+    <style name="CampoTextoPlomo" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">#bcbcbc</item>
+        <item name="colorControlActivated">#bcbcbc</item>
+        <item name="android:textColorHighlight">#bcbcbc</item>
+    </style>
+
+</resources>

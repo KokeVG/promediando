@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- Calcular, should appear as action button -->
+    <item
+        android:id="@+id/accion_calcular"
+        android:icon="@drawable/ic_menu_calculadora"
+        android:title="Calcular"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/accion_agregar"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="Agregar"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/accion_borrar"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:title="Eliminar"
+        app:showAsAction="ifRoom" />
+    <!-- Add, should appear as action button -->
+    <!-- Delete, should always be in the overflow -->
+</menu>
